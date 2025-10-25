@@ -115,3 +115,7 @@ const thread = codex.startThread({
   skipGitRepoCheck: true,
 });
 ```
+
+## Sample application
+
+The [`samples/project_planner_app.ts`](./samples/project_planner_app.ts) script demonstrates how to build an interactive task planner on top of the Codex SDK. It keeps a local backlog, lets you manually add or toggle tasks, and uses structured output to turn a high-level goal into actionable work items.
